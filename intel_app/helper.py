@@ -2,6 +2,7 @@ import secrets
 import json
 import requests
 from datetime import datetime
+from decouple import config
 
 ishare_map = {
     2: 50,
@@ -35,8 +36,8 @@ def send_bundle(user, receiver, bundle_amount, reference):
     url = "https://console.bestpaygh.com/api/flexi/v1/new_transaction/"
 
     headers = {
-        "api-key": "H-IXWAO7WVWMF460MGQ0$HEBWW1-2YE$",
-        "api-secret": "ZYAF-SWP2QUB3ANPKYH713-IKLPCLPRDMHZQPS7A5LMH2AC8UEYNG8N5UCUW802O",
+        "api-key": config("API_KEY"),
+        "api-secret": config("API_SECRET"),
         'Content-Type': 'application/json'
     }
 
