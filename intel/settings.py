@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-a%%!+)mu^q5eqi)-qe2jg@$_=(3*g5x2g4g-ep_xr*+3hzh8df
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'bestplug-ceoofwealth-3v8wu.ondigitalocean.app'
+    'bestplug-ceoofwealth-3v8wu.ondigitalocean.app',
+    'www.bestplugceoofwealth.com'
 ]
 
 
