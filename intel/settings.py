@@ -53,7 +53,7 @@ JAZZMIN_SETTINGS = {
     # "site_logo": "img/site/bestPay Logo.png",
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
     "site_brand": "BestPlug",
-    "copyright": "de Dream Team",
+    "copyright": "Bestplug-CEOofWealth",
     # "login_logo": "img/site/bp.png",
     "welcome_sign": "Welcome to the BestPlug Admin",
     "custom_css": 'css/admin.css',
